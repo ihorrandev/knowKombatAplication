@@ -1,0 +1,11 @@
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\bin\Debug\KnowKombat.exe.config
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\bin\Debug\KnowKombat.exe
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\bin\Debug\KnowKombat.pdb
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.csproj.AssemblyReference.cache
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.Form1.resources
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.Properties.Resources.resources
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.csproj.GenerateResource.cache
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.csproj.CoreCompileInputs.cache
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.exe
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.pdb
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.SplashScreen.resources
