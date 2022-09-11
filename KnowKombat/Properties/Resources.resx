@@ -127,9 +127,6 @@
   <data name="Cha_goro9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_goro9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cha_subzero9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cha_subzero9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Cha_sindey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_sindey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,8 +163,8 @@
   <data name="Cha_jax9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_jax9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mk11_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mk11_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cha_kitana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cha_kitana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_shaokahn9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_shaokahn9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +178,14 @@
   <data name="Cha_shaokahn11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_shaokahn11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cha_jade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cha_jade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cha_subzero9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cha_subzero9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_subzero11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_subzero11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2_1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_luikang9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_luikang9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +214,9 @@
   <data name="Cha_kitana11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_kitana11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Cha_liukang10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cha_liukang10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cha_sindel9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_sindel9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -222,9 +225,6 @@
   </data>
   <data name="Cha_scorpion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_scorpion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cha_sonya11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cha_sonya11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_shaokahn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_shaokahn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,6 +241,9 @@
   <data name="Know_kombat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Know_kombat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cha_johnny" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_johnny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -249,6 +252,9 @@
   </data>
   <data name="Cha_johnny11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_johnny11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mk9_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mk9_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_baraka9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_baraka9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,8 +271,8 @@
   <data name="Cha_scorpion10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_scorpion10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mk10_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mk10_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cha_sindey11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cha_sindey11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_reptile10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_reptile10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -282,6 +288,9 @@
   </data>
   <data name="Cha_mileena" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_mileena.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3_1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3_1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_kunglao10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_kunglao10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,9 +313,6 @@
   <data name="Cha_raiden11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_raiden11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cha_sindey11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cha_sindey11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Cha_shangtsung9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_shangtsung9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -319,17 +325,23 @@
   <data name="Cha_sonya" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_sonya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="toasty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toasty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cha_goro11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_goro11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cha_kitana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cha_kitana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cha_jade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cha_jade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_repitile11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_repitile11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mk9_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mk9_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cha_sonya11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cha_sonya11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mk11_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mk11_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cha_mileena11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_mileena11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -340,7 +352,10 @@
   <data name="Cha_goro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cha_goro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cha_liukang10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cha_liukang10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mk10_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mk10_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dancegif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dancegif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

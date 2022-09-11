@@ -63,6 +63,36 @@ namespace KnowKombat.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("1-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2_1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("2_1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3_1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("3_1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancel {
             get {
                 object obj = ResourceManager.GetObject("cancel", resourceCulture);
@@ -763,6 +793,16 @@ namespace KnowKombat.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dancegif {
+            get {
+                object obj = ResourceManager.GetObject("dancegif", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Know_kombat {
             get {
                 object obj = ResourceManager.GetObject("Know_kombat", resourceCulture);
@@ -796,6 +836,16 @@ namespace KnowKombat.Properties {
         internal static System.Drawing.Bitmap Mk9_logo {
             get {
                 object obj = ResourceManager.GetObject("Mk9_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toasty {
+            get {
+                object obj = ResourceManager.GetObject("toasty", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -9,3 +9,9 @@ D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug
 D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.exe
 D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.pdb
 D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.SplashScreen.resources
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\Interop.MediaPlayer.dll
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\Interop.WMPLib.dll
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\KnowKombat.csproj.ResolveComReference.cache
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\bin\Debug\Interop.WMPLib.dll
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\bin\Debug\AxInterop.WMPLib.dll
+D:\Ensino_tecnico\DS\exercicios\Theme\KnowKombat\KnowKombat\KnowKombat\obj\Debug\AxInterop.WMPLib.dll

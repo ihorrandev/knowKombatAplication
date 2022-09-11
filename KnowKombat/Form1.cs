@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace KnowKombat
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
+
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +25,14 @@ namespace KnowKombat
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            axWindowsMediaPlayer1.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            button5.Visible = false;
+            button3.Visible = false;
+            button4.Visible = false;
+            label6.Visible = false;
+            button2.Visible = false;
             label2.Visible = false;
             comboBox1.Visible = false;
             comboBox2.Visible = false;
@@ -49,6 +60,7 @@ namespace KnowKombat
             radioButton15.Visible = false;
             radioButton16.Visible = false;
             radioButton17.Visible = false;
+            pictureBox4.Visible = false;
 
         }
 
@@ -56,6 +68,17 @@ namespace KnowKombat
         {
             if(listBox1.SelectedIndex == 0)
             {
+                button5.Visible = false;
+                pictureBox5.Visible = false;
+                pictureBox6.Visible = false;
+                button4.Visible = false;
+                player.controls.stop();
+                button3.Visible = false;
+                button3.Visible = true;
+                axWindowsMediaPlayer1.Visible = false;
+                axWindowsMediaPlayer1.Ctlcontrols.stop();
+                label6.Visible = true;
+                button2.Visible = true;
                 label4.Visible = true;
                 label5.Visible = true;
                 label4.Text = "Primeiramente, antes mesmo da narrativa construída pelo primeiro Mortal Kombat, existe uma história prévia. No mundo do jogo, existem várias dimensões regidas por Deuses Anciões. Os mais importantes para o jogo são Outworld, que conquista outros mundos à; Edenia, terra de fertilidade conquistada por Outworld; Netherrealm, uma versão do inferno; e Earthrealm, a Terra. Uma vez que o Outworld sempre tenta dominar outros reinos, os Deuses decidiram por ordem nas coisas. Entretanto, a solução não foi muito convencional. Eles criaram um torneio de luta que dá o direito de dominar a dimensão sede a quem vencer dez edições seguidas: o Mortal Kombat.";
@@ -105,10 +128,28 @@ namespace KnowKombat
                 comboBox2.Visible = false;
                 comboBox2.SelectedIndex = 0;
                 pictureBox3.Image = null;
-
+                pictureBox4.Image = null;
+                pictureBox4.Visible = false;
             }
             else if (listBox1.SelectedIndex == 1)
             {
+                button5.Visible = false;
+                button4.Visible = false;
+                pictureBox5.Visible = false;
+                pictureBox6.Visible = false;
+                player.controls.stop();
+                button3.Visible = false;
+                axWindowsMediaPlayer1.Visible = false;
+                axWindowsMediaPlayer1.Ctlcontrols.stop();
+                label6.Visible = false;
+                button2.Visible = false;
+
+                pictureBox4.Visible = true;
+                pictureBox4.Image = Properties.Resources.toasty;
+                player.URL = "msc_toasty.mp3";
+                player.controls.play();
+                timer1.Start();
+
                 label4.Visible = false;
                 label5.Visible = false;
                 pictureBox3.Visible = false;
@@ -161,6 +202,17 @@ namespace KnowKombat
             }
             else if(listBox1.SelectedIndex==2){
 
+                button5.Visible = false;
+                pictureBox6.Visible = false;
+                pictureBox5.Visible = false;
+                button4.Visible = false;
+                pictureBox5.Visible = false;
+                player.controls.stop();
+                button3.Visible = false;
+                axWindowsMediaPlayer1.Visible = false;
+                axWindowsMediaPlayer1.Ctlcontrols.stop();
+                label6.Visible = false;
+                button2.Visible = false;
                 label4.Visible = false;
                 label5.Visible = false;
                 pictureBox3.Visible = false;
@@ -216,6 +268,9 @@ namespace KnowKombat
                 comboBox2.Visible = false;
                 comboBox2.SelectedIndex = 0;
                 pictureBox3.Image = null;
+
+                pictureBox4.Image = null;
+                pictureBox4.Visible = false;
             }
         }
 
@@ -247,6 +302,11 @@ namespace KnowKombat
                 checkBox1.Checked = false;
                 checkBox2.Checked = false;
                 label3.Text = "";
+                pictureBox4.Visible = true;
+                pictureBox4.Image = Properties.Resources.toasty;
+                player.URL = "msc_toasty.mp3";
+                player.controls.play();
+                timer1.Start();
             }
             else if (comboBox1.SelectedIndex == 3)
             {
@@ -542,14 +602,19 @@ namespace KnowKombat
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             DialogResult = MessageBox.Show("Tem certeza que deseja sair do Know Kombat?", "Atenção", MessageBoxButtons.YesNo);
             if (DialogResult == DialogResult.Yes)
             {
                 Application.Exit();
+               
             }
             else if (DialogResult == DialogResult.No)
             {
                 //do something else
+                player.URL = "msc_Fatality.mp3";
+                player.controls.play();
+
             }
         }
 
@@ -752,6 +817,66 @@ namespace KnowKombat
                     pictureBox3.Image = Properties.Resources.Cha_goro11;
                 }
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            pictureBox4.Image = null;
+            pictureBox4.Visible = false;
+            timer1.Stop();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label4.Visible = false;
+            button3.Visible = false;
+            label5.Visible = false;
+            axWindowsMediaPlayer1.Visible = true;
+            axWindowsMediaPlayer1.URL = "vd_trailer.mp4";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+            label6.Visible = false;
+            button2.Visible = false;
+            player.controls.stop();
+            button4.Visible = false;
+            button5.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            player.URL = "msc_Theme.mp3";
+            player.controls.play();
+            button4.Visible = true;
+            button3.Visible = false;
+            pictureBox5.Visible = true;
+            pictureBox6.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button5.Visible = true;
+            button4.Visible = false;
+            player.controls.pause();
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            player.controls.play();
+            button4.Visible = true;
+            button5.Visible = false;
+            pictureBox5.Visible = true;
+            pictureBox6.Visible = true;
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -88,6 +88,7 @@ namespace KnowKombat
             this.Name = "SplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";
+            this.Load += new System.EventHandler(this.SplashScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
